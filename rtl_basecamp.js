@@ -1,0 +1,1 @@
+alert("there are "+$('p').size()+"paragraphs");

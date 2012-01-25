@@ -1,0 +1,12 @@
+{
+  "name": "BaseCamp Right-To-Left",
+  "version": "0.5",
+  "description": "An extension allowing to work in BaseCamp with RTL languages such as Hebrew, Arabic, etc",
+   "content_scripts": [
+    {
+      "matches": ["https://*.basecamphq.com/*"],
+      "css": ["rtl_basecamp.css"],
+      "js": ["jquery-1.7.min.js", "rtl_basecamp.js"]
+    }
+  ]
+}
