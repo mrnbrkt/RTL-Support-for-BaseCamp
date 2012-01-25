@@ -5,8 +5,7 @@
    "content_scripts": [
     {
       "matches": ["https://*.basecamphq.com/*"],
-      "css": ["rtl_basecamp.css"],
-      "js": ["jquery-1.7.min.js", "rtl_basecamp.js"]
+      "css": ["rtl_basecamp.css"]
     }
   ]
 }
