@@ -1,4 +1,4 @@
-#comments, #message_header, #OriginalPost, #text_area, .message
+#comments, #message_header, #OriginalPost, .text_area, .message, .check_box_commentable
 {
 	direction: rtl;
 	text-align: right;
