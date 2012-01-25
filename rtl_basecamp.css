@@ -1,4 +1,4 @@
-#comments, #message_header, #OriginalPost, #text_area
+#comments, #message_header, #OriginalPost, #text_area, .message
 {
 	direction: rtl;
 	text-align: right;
