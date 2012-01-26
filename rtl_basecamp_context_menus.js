@@ -21,7 +21,7 @@ function toggleBaseCampDirection()
 
 function createContextMenuButton()
 {
-	chrome.contextMenus.create({title: "Switch basecamp language", 
+	chrome.contextMenus.create({title: "Switch BaseCamp Direction", 
 								onclick: toggleBaseCampDirection, 
 								documentUrlPatterns: ["https://*.basecamphq.com/*"]
 								});
