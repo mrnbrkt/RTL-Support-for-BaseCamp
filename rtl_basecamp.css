@@ -3,3 +3,11 @@
 	direction: rtl;
 	text-align: right;
 }
+
+div.formatted_text_body li, div.formatted_text_body ul, #preview_body li, #preview_body ul
+{ 
+	margin-right: 15px;
+	padding-right: 3px;
+	padding-left: 0px;
+	margin-left: 0;
+}
