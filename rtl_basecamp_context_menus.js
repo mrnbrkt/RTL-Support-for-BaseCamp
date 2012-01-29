@@ -33,6 +33,7 @@ function bindSocketToPages()
 	$ports.push(port);
 	console.log("We have "+$ports.size()+" open ports");
 	port.postMessage({direction: localStorage["shuoldBasecampBeLTR"]});
+	port.onMessage.addListener(function(port) { notifyDirectionToAllPorts(); });
 	port.onDisconnect.addListener(function(port) { 
 			index = jQuery.inArray(port, $ports);
 			if (index != -1 ) $ports.splice(index, 1);
