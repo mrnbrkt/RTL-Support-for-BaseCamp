@@ -25,6 +25,7 @@ function setCssForRTL()
 }
 function toggleCssOfDirectioning(shouldBeLTR)
 {
+	console.log("Setting direction. Should be left-to-right? "+shouldBeLTR)
 	if (shouldBeLTR == "yes") setCssForLTR();
 	else setCssForRTL();
 }
@@ -32,8 +33,8 @@ function toggleCssOfDirectioning(shouldBeLTR)
 
 function askForDirection()
 {
-	console.log("Asking for direction in 2 seconds");
-	setTimeout('port.postMessage("what direction should I use?");',2000);
+	console.log("Asking for direction in 1 second");
+	setTimeout('port.postMessage("what direction should I use?");',1000);
 }
 
 function bindButtonClicks()
