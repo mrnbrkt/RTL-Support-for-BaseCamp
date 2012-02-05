@@ -33,8 +33,9 @@ function toggleCssOfDirectioning(shouldBeLTR)
 
 function askForDirection()
 {
-	console.log("Asking for direction in 1 second");
+	console.log("Asking for direction in 1 and 3 second");
 	setTimeout('port.postMessage("what direction should I use?");',1000);
+	setTimeout('port.postMessage("what direction should I use?");',3000);
 }
 
 function bindButtonClicks()
