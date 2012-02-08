@@ -41,6 +41,7 @@ function askForDirection()
 function bindButtonClicks()
 {
 	$("input[type=button]").on("click", askForDirection);
+	$("input[type=submit]").on("click", askForDirection);
 }
 
 function initPort()

@@ -1,6 +1,6 @@
 {
   "name": "BaseCamp Right-To-Left",
-  "version": "0.15",
+  "version": "0.16",
   "description": "An extension allowing to work in BaseCamp with RTL languages such as Hebrew, Arabic, etc",
   "permissions": [
     "contextMenus"
